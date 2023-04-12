@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+	<div class="wrapperDiv">
+		<p>To ja, przemożna Pytia - zadaj mi w myślach pytanie, a ja odpowiem czy to o czym pomyślałeś się spełni.</p>
+		<p id="viewProbabilty"></p>
+		<input type="button" id="checkButton" value="Sprawdź" />
+	</div>
+
+	<div class="wrapperDiv">
+		<label>Pierwsze słowo: </label>
+		<input type="text" id="firstWord" />
+		<label>Drugie słowo: </label>
+		<input type="text" id="secondWord" />
+		<input type="button" id="transformedWordsButton" value="Przekształć" />
+		<p id="transformedWords"></p>
+	</div>
+
+	<div class="wrapperDiv">
+		<label>Napis: </label>
+		<input type="text" id="wordToCheck" />
+		<input type="button" id="checkWord" value="Sprawdź" />
+		<p id="resultOfCheckingWord"></p>
+	</div>
+
+	<div class="wrapperDiv">
+		<label>Podaj liczby: </label>
+		<input type="number" id="numberToCheck" />
+		<input type="button" id="addNumber" value="Dodaj" />
+		<br />
+		<label>Wybrane liczby: </label>
+		<p id="chooseNumbersToCheck"></p>
+		<input type="button" id="searchMinAndMax" value="Sprawdź" />
+		<p id="minAndMax"></p>
+	</div>
+
+	<div class="wrapperDiv">
+		<label>Podaj długość pierwszego boku trójkąta: </label>
+		<input type="number" id="firstLengthOfTriangle" />
+		<br />
+		<label>Podaj długość drugiego boku trójkąta: </label>
+		<input type="number" id="secondLengthOfTriangle" />
+		<br />
+		<label>Podaj długość trzeciego boku trójkąta: </label>
+		<input type="number" id="thirdLengthOfTriangle" />
+		<br />
+		<p id="triangleArea"></p>
+		<br />
+		<input type="button" id="checkTriangle" value="Sprawdź/Oblicz" />
+	</div>
+
+	<script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
